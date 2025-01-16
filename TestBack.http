@@ -1,0 +1,11 @@
+@TestBack_HostAddress = http://localhost:5231
+
+GET {{TestBack_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{TestBack_HostAddress}}/todos/1
+Accept: application/json
+
+###
